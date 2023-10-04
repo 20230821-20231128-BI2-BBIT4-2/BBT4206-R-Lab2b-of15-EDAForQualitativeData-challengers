@@ -21,6 +21,7 @@ Business Intelligence Lab Submission Markdown
 <td><p>118211 Fredrick Koech</p>
 <p>124255 Natasha Gichira</p>
 <p>124422 Dennis Muriuki</p>
+<p>120415 Emmanuel Agre</p>
 <p>124562 Ryan Gitonga Munene</p></td>
 </tr>
 <tr class="even">
