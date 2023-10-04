@@ -28,7 +28,7 @@
 # "renv" It can be installed as follows:
 # if (!is.element("renv", installed.packages()[, 1])) {
 # install.packages("renv", dependencies = TRUE,
-repos = "https://cloud.r-project.org") # nolint
+# repos = "https://cloud.r-project.org") # nolint
 # }
 # require("renv") # nolint
 
@@ -539,7 +539,7 @@ evaluation_per_group_per_gender %>%
   blue_grey_theme() +
   scale_fill_manual(values = blue_grey_colours_2) +
   ggtitle("Course Evaluation Rating per Group and per Gender") +
-  labs(x = "Class Group", y = "Average Rating")
+  labs(x = "Class Group", y = "Average Rating") 
 
 # STEP 5. Data Cleansing for Qualitative Data ----
 ## Contractions ----
@@ -579,7 +579,7 @@ evaluation_likes_and_wishes <- student_performance_dataset %>%
   mutate(`Student's Gender` =
            ifelse(gender == 1, "Male", "Female")) %>%
   rename(`Class Group` = class_group) %>%
-  rename(Likes = `D - 1. \nWrite two things you like about the teaching and learning in this unit so far.`) %>% # nolint
+  rename(Likes = `D - 1. Write two things you like about the teaching and learning in this unit so far.`) %>% # nolint
   rename(Wishes = `D - 2. Write at least one recommendation to improve the teaching and learning in this unit (for the remaining weeks in the semester)`) %>% # nolint
   select(`Class Group`,
          `Student's Gender`, `Average Course Evaluation Rating`,
